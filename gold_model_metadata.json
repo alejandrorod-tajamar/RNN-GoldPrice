@@ -1,0 +1,22 @@
+{
+    "model_name": "Gold Price LSTM Predictor",
+    "features": [
+        "Oro",
+        "DXY",
+        "Bonos_10y",
+        "TIP",
+        "Ratio_Oro_Dolar",
+        "Oro_STD_20",
+        "Tasa_Real"
+    ],
+    "look_back": 90,
+    "horizon": 5,
+    "training_period": "2010-01-01 to 2018-12-31",
+    "validation_period": "2019-01-01 to 2020-12-31",
+    "test_period": "2021-01-01 to 2024-04-26",
+    "metrics": {
+        "test_rmse": 1.1576300251816776,
+        "test_mae": 0.7981309527874683,
+        "test_directional_accuracy": 0.4473684210526316
+    }
+}
